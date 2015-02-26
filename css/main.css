@@ -56,10 +56,6 @@ h1, h2, h3, h4, h5, h6 {
   background: url(../img/logo.png) no-repeat center;
 }
 
-ul {
-    text-align:justify!important;
-}
-
 .row h2 {
   font-family: 'Yanone Kaffeesatz', sans-serif;
   color: #20977a;
@@ -73,15 +69,6 @@ p {
   line-height: 28px;
   margin-bottom: 25px;
   text-align:justify;
-}
-
-.greenList {
-    text-align:left;
-    color:#20977a;
-}
-
-.greenList b, .greenList span {
-    color:#6f6f6f;
 }
 
 
@@ -153,9 +140,6 @@ a:after {
   padding-top: 120px;
   padding-bottom: 120px;
   text-align: center;
-  width:900px;
-  margin-left:auto;
-  margin-right:auto;
 }
 .pattern {
   background:url('../img/white-bg.png') repeat;
@@ -180,9 +164,6 @@ a:after {
   text-align: center;
   padding-top: 120px;
   padding-bottom: 120px;
-  width:900px;
-  margin-left:auto;
-  margin-right:auto;
 }
 .noPadding{
   padding:0;
@@ -192,9 +173,6 @@ a:after {
 .darkgrey {
   background: #e0e0e0;
   text-align: center;
-    width:900px;
-  margin-left:auto;
-  margin-right:auto;
 }
 
 /* Footer Wrap */
@@ -406,7 +384,7 @@ a:after {
 #overlay {
   margin: 0px;
   padding: 0px;
-  position: fixed;
+  position: absolute;
   z-index:2;
   left: 0px;
   top: 0px;
@@ -947,20 +925,4 @@ input[type="submit"] {
 }
 /*   IX.  Mediaqueries End
 ==============================*/ 
-
-/* Infrastructure pictures */
-
-.infraDiv {
-    height:250px;
-    width: 250px;
-    border: 3px solid #20977a;
-    border-radius: 5px;
-    display:inline-block;
-    cursor:pointer;
-    margin:10px 10px;
-}
-
-/*   Infrastructure pictures End
-==============================*/ 
-
 
